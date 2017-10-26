@@ -14,10 +14,6 @@ rosdep install --from-paths /tmp/haros_catkin_ws/src --ignore-src
 catkin_make
 source devel/setup.bash
 
-# this is unfortunately needed for now
-# TODO: extend haros so we can tell it where to place the '.haros' dir
-haros init
-
 # let haros analyse and report
 catkin_make haros_report
 
