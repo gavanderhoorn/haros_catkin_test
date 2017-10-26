@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>test_pkg_copy</name>
+  <version>0.0.0</version>
+  <description>The test_pkg_copy package</description>
+  <maintainer email="jaap@todo.todo">jaap</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <test_depend>haros</test_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+</package>

@@ -19,4 +19,6 @@ catkin_make haros_report
 
 # open report in browser
 <browser binary> build/test_pkg/test_pkg/haros_report/index.html
+#or
+<browser binary> build/test_pkg/test_pkg_copy/haros_report/index.html
 ```
